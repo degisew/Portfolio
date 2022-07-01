@@ -115,6 +115,10 @@ section p {
   justify-content: space-between;
 }
 
+body {
+    background-image: url(../images/header-shapes-mobile.png);
+}
+
 .app-div {
   flex-wrap: wrap;
   align-items: center;

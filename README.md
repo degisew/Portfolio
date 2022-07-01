@@ -1,27 +1,50 @@
+ Portfolio portfolio
 
-################################################
-=======
-# Title
-   - Personal Portfolio
-# Descritption
-   - this is a personal portfolio mobile skeleton project designed using flex box.
+The project is inspired by the figma microverse template 1 (https://figma.com/)
+For this portfolio website, I implemented Html And Css that includes the project details in mobile.
 
-# Built with:
-   - HTML
-   - CSS
-# Getting Started
+ 
+## Built With the following
 
-   # Prerequisites
-   This project has no Prerequisites
-   # Setup
-   Open this website in your favorite browser
-   # Install
-   No installation required
-   # Usage
-   open the website in your browser and see a detail about me.
-# Author
-   - @githubdegisew
-   - @twitterDJ_etiya
-   - linkedin.com/in/degisew-mengist-390098219
-   
-################################################
+- HTML
+- CSS
+- Linter
+
+## Get Started
+
+Please get your browser update.
+To get a local copy up and running follow these simple steps.
+
+Run the command below from the Terminal:
+
+      git clone <URL> 'https://github.com/degisew/portfolio' in your terminal
+
+	  cd mobile-skeleton
+
+
+## Authors
+
+👤 **Degisew**
+
+- Location: Ethiopia
+- GitHub: [@jegisew21](https://github.com/degisew)
+- Twitter: [@DJ_etiya](https://twitter.com/Degisew-mengist)
+- LinkedIn: [jegisew21](https://www.linkedin.com/in/degisew-mengist-003298802)
+
+## 🤝 Contributing
+
+Contributions, issues, and feature requests are welcome!
+
+Feel free to check the [issues page](https://github.com/degisew/portfolio/issues).
+
+## Show your support
+
+Give a ⭐ if you like this project!
+
+## Acknowledgments
+
+- Thanks to Microverse and my Coding Partners
+
+## 📝 License
+
+This project is [MIT](./MIT.md) licensed.
