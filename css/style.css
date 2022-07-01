@@ -8,7 +8,7 @@ a {
 
 .my-name {
   width: 280px;
-  margin-top: auto;
+  margin-top: 60px;
   font-family: 'Raleway', sans-serif;
   font-style: normal;
   font-weight: 700;
@@ -20,7 +20,7 @@ a {
 }
 
 section p {
-  margin-top: auto;
+  margin-top: 0;
 
   /* font-family: 'Raleway', sans-serif; */
   font-style: normal;
@@ -115,11 +115,12 @@ section p {
   justify-content: space-between;
 }
 
-body {
-  background-image: url(../images/header-shapes-mobile.png);
-}
+/* body {
+  background-image: url(../images/header-shapes-mobile.jpg);
+} */
 
 .app-div {
+  background-image: url(../images/header-shapes-mobile.jpg);
   flex-wrap: wrap;
   align-items: center;
   max-width: 340px;
