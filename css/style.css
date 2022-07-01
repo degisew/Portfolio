@@ -1,0 +1,124 @@
+a {
+  text-decoration: none;
+  font-weight: bolder;
+  color: rgb(90, 35, 241);
+  font-size: 15px;
+  font-family: 'Raleway', sans-serif;
+}
+
+.my-name {
+  width: 280px;
+  margin-top: auto;
+  font-family: 'Raleway', sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 46px;
+  line-height: 52px;
+  display: flex;
+  align-items: center;
+  color: #172b4d;
+}
+
+section p {
+  margin-top: auto;
+
+  /* font-family: 'Raleway', sans-serif; */
+  font-style: normal;
+  font-size: 17px;
+  line-height: 24px;
+  width: 327px;
+
+  /* left: 24px; */
+  font-family: 'Poppins', sans-serif;
+  text-align: justify;
+}
+
+#rec-7 {
+  height: 14px;
+  width: 26px;
+  left: 127px;
+  top: 181px;
+  border-radius: 0;
+}
+
+.ellipse-11 {
+  height: 19px;
+  width: 38px;
+  left: 16px;
+  top: 161px;
+  border-radius: 0;
+}
+
+#ellipse-3 {
+  height: 50px;
+  width: 50px;
+  left: 323px;
+  top: 152px;
+  border-radius: 0;
+}
+
+#ellipse-4 {
+  height: 20px;
+  width: 20px;
+  left: 237px;
+  border-radius: 0;
+  margin: 15px 0 0 250px;
+}
+
+.ellipse {
+  margin-top: 40px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.lets-image {
+  display: flex;
+  justify-content: space-between;
+}
+
+.lets-connect {
+  width: 117px;
+  height: 24px;
+
+  /* font-family: 'Poppins'; */
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+  color: #7f8cff;
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+}
+
+.contact-me-icons {
+  list-style-type: none;
+  display: flex;
+  justify-content: space-between;
+  width: 170px;
+
+  /* height: 20px; */
+  margin-top: auto;
+}
+
+.contact-me-icons img {
+  height: 19px;
+  width: 19px;
+  left: 24px;
+  top: 200px;
+  border-radius: 0;
+}
+
+.nav-bar {
+  padding: 10px 17px 0 17px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.app-div {
+  flex-wrap: wrap;
+  align-items: center;
+  max-width: 340px;
+  height: 620px;
+  margin: 0 auto 10vh auto;
+}
