@@ -41,8 +41,6 @@ section p {
 .lets-connect {
   width: 137px;
   height: 24px;
-
-  /* font-family: 'Poppins'; */
   font-weight: 500;
   font-size: 16px;
   line-height: 24px;
@@ -76,21 +74,23 @@ section p {
   display: flex;
   align-items: center;
   justify-content: space-between;
+
   /* margin: 0vh 0vh 10vh 0vh; */
 }
 
 .app-div {
   background-image: url(../images/header-shapes-mobile.jpg);
+
   /* flex-wrap: wrap; */
   align-items: stretch;
   max-width: 360px;
   height: 620px;
-  margin: 0vh 0vh 0vh 1vh;
+  margin: 0 0 0 1vh;
   padding-left: 15px;
 }
 
 body {
-  background: #E5E5E5;
+  background: #e5e5e5;
 }
 
 .main {
@@ -109,13 +109,14 @@ body {
   margin: 10px 5px auto 14px;
   max-width: 370px;
   height: 620px;
-  border: 1px solid #DFE1E6;
+  border: 1px solid #dfe1e6;
   border-radius: 16px;
 }
 
 .sec-1-div-1 {
   width: 295px;
   height: 200px;
+
   /* background: url(blog_drbl_4x.png); */
   border-radius: 8px;
   flex: none;
@@ -141,9 +142,11 @@ body {
   flex-direction: column;
   align-items: flex-start;
   font-family: 'Raleway', sans-serif;
+
   /* padding-bottom: 10px; */
+
   /* gap: 12px; */
-  width: 0px;
+  width: 0;
   height: 110px;
   flex: none;
   order: 0;
@@ -153,9 +156,9 @@ body {
 .div-2-div-2 {
   min-width: 395px;
   height: 76px;
-  font-family: 'Poppins';
   padding-top: 35px;
   font-style: normal;
+
   /* align-content: justify; */
   font-weight: 400;
   font-size: 15px;
@@ -182,6 +185,7 @@ body {
 
 .div-2-div-4 {
   width: 2px;
+
   /* height: 72px; */
   margin-top: 10px;
   flex: none;
@@ -192,12 +196,13 @@ body {
 .multi-post {
   width: 295px;
   height: 35px;
+
   /* font-family: 'Courier New', Courier, monospace; */
   font-style: normal;
   font-weight: 700;
   font-size: 36px;
   line-height: 44px;
-  color: #172B4D;
+  color: #172b4d;
   flex: none;
   order: 0;
   flex-grow: 0;
@@ -206,28 +211,30 @@ body {
 .tonic {
   width: 295px;
   height: 3px;
+
   /* font-family: 'Courier New', Courier, monospace; */
   font-style: normal;
   padding-top: 20px;
   font-weight: 700;
   font-size: 36px;
   line-height: 44px;
-  color: #172B4D;
+  color: #172b4d;
   flex: none;
   order: 0;
   flex-grow: 0;
 }
 
 .tonic-p {
-  height: 0px;
+  height: 0;
 }
 
 .ul {
   display: flex;
   flex-direction: row;
   align-items: center;
+
   /* justify-content: space-between; */
-  padding: 0px;
+  padding: 0;
   gap: 12px;
   width: 236px;
   height: 40px;
@@ -245,7 +252,7 @@ body {
   flex-direction: row;
   align-items: center;
   font-size: 12px;
-  padding: 8px 0px;
+  padding: 8px 0;
   width: 60px;
   height: 32px;
   flex: none;
@@ -256,12 +263,11 @@ body {
 .back-end-dev {
   width: 88px;
   height: 16px;
-  font-family: 'Poppins';
   font-style: normal;
   font-weight: 600;
   font-size: 13px;
   line-height: 16px;
-  color: #7A869A;
+  color: #7a869a;
   flex: none;
   order: 0;
   flex-grow: 0;
@@ -270,12 +276,11 @@ body {
 .year {
   width: 29px;
   height: 16px;
-  font-family: 'Poppins';
   font-style: normal;
   font-weight: 600;
   font-size: 13px;
   line-height: 16px;
-  color: #7A869A;
+  color: #7a869a;
   flex: none;
   order: 0;
   flex-grow: 0;
@@ -284,7 +289,6 @@ body {
 .html {
   width: 35px;
   height: 20px;
-  font-family: 'Poppins';
   text-align: center;
   font-style: normal;
   font-weight: 500;
@@ -302,14 +306,13 @@ body {
   width: 35px;
   height: 20px;
   text-align: center;
-  font-family: 'Poppins';
   font-style: normal;
   font-weight: 500;
   font-size: 12px;
   line-height: 16px;
   border-radius: 4px;
   letter-spacing: 0.03em;
-  color: #6070FF;
+  color: #6070ff;
   flex: none;
   order: 0;
   flex-grow: 0;
@@ -319,14 +322,13 @@ body {
   width: 70px;
   height: 20px;
   text-align: center;
-  font-family: 'Poppins';
   font-style: normal;
   font-weight: 500;
   font-size: 12px;
   border-radius: 5px;
   line-height: 16px;
   letter-spacing: 0.03em;
-  color: #6070FF;
+  color: #6070ff;
   flex: none;
   order: 0;
   flex-grow: 0;
@@ -343,7 +345,7 @@ body {
   padding: 4px 12px;
   width: 45px;
   height: 24px;
-  background: #EBEBFF;
+  background: #ebebff;
   border-radius: 8px;
   flex: none;
   order: 1;
@@ -357,7 +359,7 @@ body {
   padding: 4px 12px;
   width: 89px;
   height: 24px;
-  background: #EBEBFF;
+  background: #ebebff;
   border-radius: 8px;
   flex: none;
   order: 2;
@@ -369,15 +371,16 @@ body {
   display: flex;
   flex-direction: row;
   align-items: center;
-  padding: 12px 12px 0px 12px;
+  padding: 12px 12px 0 12px;
   gap: 10px;
-
   position: absolute;
   width: 144px;
   height: 14px;
-  left: 0px;
+  left: 0;
+
   /* top: calc(50% - 48px/2); */
-  margin: 15px auto 0px 40px;
+  margin: 15px auto 0 40px;
+
   /* border: 1px solid #6070FF; */
   border-radius: 8px;
 }
@@ -388,20 +391,21 @@ body {
 
 .about-my-self {
   width: 200px;
-    height: 101px;
-    padding-left: 10px;
-    font-family: 'Raleway', sans-serif;
-    font-style: normal;
-    font-weight: 700;
-    font-size: 40px;
-    line-height: 52px;
-    display: flex;
-    align-items: center;
-    color: #172B4D;
-    flex: none;
-    order: 0;
-    flex-grow: 0;
+  height: 101px;
+  padding-left: 10px;
+  font-family: 'Raleway', sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 52px;
+  display: flex;
+  align-items: center;
+  color: #172b4d;
+  flex: none;
+  order: 0;
+  flex-grow: 0;
 }
+
 .my-detail {
   padding-left: 10px;
   font-style: normal;
@@ -420,35 +424,34 @@ body {
   align-items: center;
   padding: 12px;
   gap: 10px;
-
   position: absolute;
   width: 170px;
   height: 58px;
-  left: 0px;
+  left: 0;
+
   /* top: calc(50% - 48px/2); */
   margin: 15px auto auto 40px;
-  border: 1px solid #6070FF;
+  border: 1px solid #6070ff;
   border-radius: 8px;
 }
 
 input[type="submit"] {
   border: 1;
- background-color: inherit;
-  box-shadow:crimson;
+  background-color: inherit;
+  box-shadow: crimson;
   width: 144px;
-    height: 48px;
-    border-radius: 10px;
-    font-weight: bolder;
-    font-size: 15px;
-    color: #6070FF;
-    font-family: 'Poppins', sans-serif;
+  height: 48px;
+  border-radius: 10px;
+  font-weight: bolder;
+  font-size: 15px;
+  color: #6070ff;
+  font-family: 'Poppins', sans-serif;
 }
 
-input[type="submit"]:hover{
-background-color: #dee81e;
+input[type="submit"]:hover {
+  background-color: #dee81e;
 }
- 
+
 .skill-list {
   list-style-type: none;
 }
-
