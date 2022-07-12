@@ -411,3 +411,64 @@ input[type="submit"]:hover {
   order: 3;
   flex-grow: 0;
 }
+
+.form-div {
+  margin: 170px 20px 0 20px;
+}
+
+.contact-form {
+  background: #6070ff;
+  background-image: url(../images/contact-form-img.png);
+  border-top-left-radius: 75px;
+  height: 830px;
+}
+
+#client-email {
+  text-indent: 20px;
+  font-family: "Poppins", sans-serif;
+  border-radius: 10px;
+  margin: 15px 0 10px 0;
+  height: 50px;
+  width: 328px;
+}
+
+#client-name {
+  text-indent: 20px;
+  font-family: "Poppins", sans-serif;
+  margin-top: 15px;
+  border-radius: 10px;
+  height: 50px;
+  width: 328px;
+}
+
+#client-message {
+  padding-top: 20px;
+  text-indent: 20px;
+  font-family: "Poppins", sans-serif;
+  border-radius: 10px;
+  height: 168px;
+  width: 328px;
+  margin-bottom: 17px;
+}
+
+.contact-me-descrptn {
+  font-family: "Poppins", sans-serif;
+  color: white;
+  text-align: justify;
+}
+
+.bottom-icon {
+  width: 180px;
+  height: 50px;
+}
+
+#Contact-me-title {
+  display: flex;
+  color: white;
+  width: 250px;
+  margin-bottom: 10px;
+  padding-top: 5px;
+  padding-left: 15px;
+  justify-content: center;
+  
+}
