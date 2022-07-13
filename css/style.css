@@ -2,10 +2,11 @@
 
 .main {
   display: grid;
+  flex-direction: column;
   position: absolute;
   width: 375px;
   gap: 40px;
-  height: 4000px;
+  height: 5000px;
   left: 500px;
   right: 300px;
   background: #f7f7f9;
@@ -369,7 +370,13 @@ input[type="submit"]:enabled {
 }
 
 input[type="submit"]:hover {
-  background-color: #dee81e;
+  background-color: #572ff7;
+  color: white;
+}
+
+input[type="submit"]:focus {
+  background-color: #1717e0;
+  color: white;
 }
 
 .about-my-self {
@@ -409,4 +416,69 @@ input[type="submit"]:hover {
   flex: none;
   order: 3;
   flex-grow: 0;
+}
+
+.form-div {
+  margin: 170px 20px 0 20px;
+}
+
+.contact-form {
+  background: #6070ff;
+  background-image: url(../images/contact-form-img.png);
+  border-top-left-radius: 75px;
+  height: 830px;
+}
+
+#client-email {
+  text-indent: 20px;
+  font-family: "Poppins", sans-serif;
+  border-radius: 10px;
+  margin: 15px 0 10px 0;
+  height: 50px;
+  width: 328px;
+}
+
+#client-name {
+  text-indent: 20px;
+  font-family: "Poppins", sans-serif;
+  margin-top: 15px;
+  border-radius: 10px;
+  height: 50px;
+  width: 328px;
+}
+
+#client-message {
+  padding-top: 20px;
+  text-indent: 20px;
+  font-family: "Poppins", sans-serif;
+  border-radius: 10px;
+  height: 168px;
+  width: 328px;
+  margin-bottom: 17px;
+}
+
+.contact-me-descrptn {
+  font-family: "Poppins", sans-serif;
+  color: white;
+  font-size: 16px;
+  font-weight: 400px;
+  text-align: justify;
+}
+
+.bottom-icon {
+  width: 180px;
+  height: 50px;
+}
+
+#Contact-me-title {
+  color: white;
+  width: 250px;
+  margin-bottom: 10px;
+  padding-top: 5px;
+  padding-left: 15px;
+  font-family: "Poppins", sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 52px;
 }
