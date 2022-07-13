@@ -31,6 +31,15 @@ Run the command below from the Terminal:
 - Twitter: [@DJ_etiya](https://twitter.com/Degisew-mengist)
 - LinkedIn: [jegisew21](https://www.linkedin.com/in/degisew-mengist-003298802)
 
+
+👤 **Saeqa Sultani**
+
+- Location: Afghanistan
+- GitHub: [SaeqaSultani](https://github.com/SaeqaSultani)
+- Twitter: [SaeqaSultani](https://twitter.com/SaeqaSultani)
+- LinkedIn: [SaeqaSultani](https://www.linkedin.com/in/saeqa-sultani-b41493187/)
+
+
 ## 🤝 Contributing
 
 Contributions, issues, and feature requests are welcome!

@@ -410,3 +410,312 @@ input[type="submit"]:hover {
   order: 3;
   flex-grow: 0;
 }
+
+.form-div {
+  margin: 170px 20px 0 20px;
+}
+
+.contact-form {
+  background: #6070ff;
+  background-image: url(../images/contact-form-img.png);
+  border-top-left-radius: 75px;
+  height: 830px;
+}
+
+#client-email {
+  text-indent: 20px;
+  font-family: "Poppins", sans-serif;
+  border-radius: 10px;
+  margin: 15px 0 10px 0;
+  height: 50px;
+  width: 328px;
+}
+
+#client-name {
+  text-indent: 20px;
+  font-family: "Poppins", sans-serif;
+  margin-top: 15px;
+  border-radius: 10px;
+  height: 50px;
+  width: 328px;
+}
+
+#client-message {
+  padding-top: 20px;
+  text-indent: 20px;
+  font-family: "Poppins", sans-serif;
+  border-radius: 10px;
+  height: 168px;
+  width: 328px;
+  margin-bottom: 17px;
+}
+
+.contact-me-descrptn {
+  font-family: "Poppins", sans-serif;
+  color: white;
+  text-align: justify;
+}
+
+.bottom-icon {
+  width: 180px;
+  height: 50px;
+}
+
+#Contact-me-title {
+  color: white;
+  width: 250px;
+  margin-bottom: 10px;
+  padding-top: 5px;
+  padding-left: 15px;
+  font-family: "Poppins", sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 52px;
+}
+
+@media(min-width:768px) {
+  .main {
+  display: flex;
+  flex-direction: column;
+  position: absolute;
+  width:100%;
+  height: 100%;
+  gap: 40px;
+}
+
+.first-screen {
+  display: flex;
+  flex-direction: row;
+  width: 1440px;
+  height: 916px;
+  background-color: #172b4d;
+}
+
+.nav-bar {
+  width: inherit;
+  height: inherit;
+  display: flex;
+  justify-content: space-between;
+  background-color: white;
+}
+
+.my-logo {
+  width: 86px;
+  height: 20px;
+  padding-left: 20px;
+  padding-right: 20px;
+  font-family: "Poppins", sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 20px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  color: #6070ff;
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+}
+
+.drawer-icon {
+  display: none;
+  height: 15px;
+  width: 20px;
+  padding-left: 20px;
+  padding-right: 20px;
+  border-radius: 0;
+}
+
+.home-links {
+  justify-content: space-between;
+  display: inline-block;
+  text-decoration-line:none;
+}
+
+.home-links a {
+    text-decoration-line: none;
+}
+
+.sub-section-of-1 {
+  align-items: stretch;
+  width:inherit;
+  height: inherit;
+  background-image: url(../images/../images/desktop-1st-screen-bkg.png);
+}
+.contact-form {
+  background: #6070ff;
+  background-image: url(../images/desktop-contact-form-bkg.png);
+  border-top-left-radius: 75px;
+  width: 1440px;
+  height: 916px;
+}
+
+.primary-text {
+  width: 230px;
+  height: 150px;
+  padding-top: 10px;
+  padding-left: 15px;
+  font-family: "Poppins", sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 52px;
+  display: flex;
+  align-items: center;
+  color: #172b4d;
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+}
+
+.about-me {
+  width: 327px;
+  height: 146px;
+  padding-left: 15px;
+  font-family: "Poppins", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  color: #344563;
+  flex: none;
+  order: 1;
+  flex-grow: 0;
+}
+
+.lets-connect {
+  width: 150px;
+  height: 35px;
+  padding-left: 15px;
+  font-family: "Poppins", sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+  color: #7f8cff;
+}
+
+.social-media-icons {
+  display: flex;
+  width: 170.17px;
+  height: 20px;
+  padding-left: 15px;
+  justify-content: space-between;
+  flex: none;
+  order: 3;
+  flex-grow: 0;
+}
+
+.card-works {
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding-top: 0;
+  gap: 0;
+  height: 496px;
+  width: 1156px;
+  margin-left: 142px;
+  margin-right: 142px;
+  top: 0px;
+  border-radius: 24px;
+  background: #fff;
+  border: 1px solid #dfe1e6;
+}
+
+.block-1 {
+  /* Snapshoot Portfolio */
+  margin-right: 30px;
+  margin-left: 24px;
+  height: 400px;
+  width: 500px;
+  border-radius: 8px;
+  border-radius: 8px;
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+}
+
+.block-1 img {
+    height: inherit;
+      width: inherit;
+}
+
+.block-2 {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 12px;
+  height: 400px;
+  width: 500px;
+  flex: none;
+  order: 1;
+  flex-grow: 0;
+}
+
+.about-my-self {
+  display: flex;
+  width: 1440px;
+  height: 916px;
+  border-top-right-radius: 80px;
+  background-image: url(../images/desktop-about-myself-backg.png);
+}
+
+.folder {
+    margin-right: 30px;
+    margin-left: 24px;
+    height: 500px;
+    width: 500px;
+    border-radius: 8px;
+    border-radius: 8px;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
+
+.about-me {
+  height: 100px;
+  width: inherit;
+  padding-left: 15px;
+  font-family: "Poppins", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  color: #344563;
+  flex: none;
+  order: 1;
+  flex-grow: 0;
+}
+
+.about-my-self-social-md-icons {
+  display: flex;
+  width: 170.17px;
+  height: 20px;
+  padding-left: 25px;
+  justify-content: space-between;
+  flex: none;
+  /* order: 3; */
+  flex-grow: 0;
+}
+
+.skills {
+  list-style-type: none;
+  width: 650px;
+}
+
+.lang-list {
+  /* display: flex; */
+  float: left;
+  width: 110px;
+  height: 40px;
+}
+
+.main-cata {
+  width: 300px;
+  height: 80px;
+}
+
+}
