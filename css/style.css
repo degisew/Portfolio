@@ -370,7 +370,13 @@ input[type="submit"]:enabled {
 }
 
 input[type="submit"]:hover {
-  background-color: #dee81e;
+  background-color: #572ff7;
+  color: white;
+}
+
+input[type="submit"]:focus{
+  background-color: #1717e0;
+  color: white;
 }
 
 .about-my-self {
@@ -454,6 +460,8 @@ input[type="submit"]:hover {
 .contact-me-descrptn {
   font-family: "Poppins", sans-serif;
   color: white;
+  font-size: 16px;
+  font-weight: 400px;
   text-align: justify;
 }
 
