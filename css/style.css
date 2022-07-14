@@ -2,10 +2,11 @@
 
 .main {
   display: grid;
+  flex-direction: column;
   position: absolute;
   width: 375px;
   gap: 40px;
-  height: 4000px;
+  height: 5000px;
   left: 500px;
   right: 300px;
   background: #f7f7f9;
@@ -430,7 +431,12 @@ input[type="submit"]:focus {
 }
 
 input[type="submit"]:hover {
-  background-color: #3733bd;
+  background-color: #572ff7;
+  color: white;
+}
+
+input[type="submit"]:focus {
+  background-color: #1717e0;
   color: white;
 }
 
@@ -519,6 +525,8 @@ input[type="submit"]:hover {
 .contact-me-descrptn {
   font-family: "Poppins", sans-serif;
   color: white;
+  font-size: 16px;
+  font-weight: 400px;
   text-align: justify;
 }
 
