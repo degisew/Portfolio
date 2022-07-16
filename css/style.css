@@ -345,7 +345,7 @@
 }
 
 input[type="submit"] {
-  transition-property: background-color, height,width;
+  transition-property: background-color, height, width;
   transition-duration: 1s;
   transition-delay: 0s;
   margin-left: 20px;
@@ -365,14 +365,6 @@ input[type="submit"]:hover {
   background-color: #bd3391;
   height: 60px;
   width: 160px;
-  color: white;
-}
-
-
-input[type="submit"]:hover {
-  background-color: #bd3391;
-  height:60px;
-  width:160px;
   color: white;
 }
 
