@@ -128,6 +128,14 @@
   border-radius: 8px;
 }
 
+.desktop-right-block-1:hover {
+  transform: scale(1.1);
+}
+
+.desktop-left-block-1:hover {
+  transform: scale(1.1);
+}
+
 .card-images {
   width: 100%;
 }
