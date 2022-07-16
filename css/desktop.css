@@ -123,17 +123,17 @@
   order: 2;
 }
 
+.desktop-left-block-1 {
+  margin: 15px 15px 15px 25px;
+  border-radius: 8px;
+}
+
 .desktop-right-block-1:hover {
   transform: scale(1.1);
 }
 
 .desktop-left-block-1:hover {
   transform: scale(1.1);
-}
-
-.desktop-left-block-1 {
-  margin: 15px 15px 15px 25px;
-  border-radius: 8px;
 }
 
 .card-images {
@@ -362,7 +362,7 @@
 }
 
 .get-it-touch-btn {
-  margin-left: 80px;
+  margin-left: 200px;
 }
 
 .form-div {
@@ -370,4 +370,8 @@
   max-width: 100%;
   flex-direction: column;
   margin: 110px 100px 10px 500px;
+}
+
+.desktop-lang-list:hover {
+  transform: scale(1.1);
 }
