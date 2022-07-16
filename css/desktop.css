@@ -1,0 +1,365 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.main {
+  display: grid;
+  gap: 40px;
+  background-color: #e6ebf6;
+}
+
+.first-screen {
+  display: flex;
+  flex-direction: column;
+  border-bottom-left-radius: 80px;
+  background-color: white;
+}
+
+.nav-bar {
+  height: 50px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.my-logo {
+  padding-left: 20px;
+  font-family: "Poppins", sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  color: #6070ff;
+}
+
+.drawer-icon {
+  display: none;
+}
+
+.home-links {
+  display: flex;
+  padding-left: 120px;
+  max-width: 100%;
+  justify-content: space-between;
+}
+
+.home-links a {
+  width: 100px;
+  text-decoration-line: none;
+  justify-content: space-between;
+  font-size: 20px;
+  color: black;
+}
+
+.sub-section-of-1 {
+  display: flex;
+  background-image: url(../images/desktop-1st-screen-bkg.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.sub-div-of-sub-section-1 {
+  margin: 200px 400px 100px 250px;
+}
+
+.bottom-primary-text {
+  padding-top: 10px;
+  padding-left: 15px;
+  width: 100%;
+  font-family: "Poppins", sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 40px;
+  display: flex;
+  align-items: center;
+  color: #172b4d;
+}
+
+.top-primary-text {
+  display: none;
+}
+
+.top-about-me {
+  display: none;
+}
+
+.lets-connect {
+  padding-left: 15px;
+  width: 100%;
+  font-family: "Poppins", sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  color: #7f8cff;
+}
+
+.social-media-icons {
+  display: flex;
+  width: 170.17px;
+  height: 20px;
+  padding-left: 15px;
+  justify-content: space-between;
+}
+
+.desktop-card-works {
+  display: flex;
+  align-items: center;
+  margin-left: 40px;
+  margin-right: 40px;
+  border-radius: 24px;
+  background: #fff;
+  border: 1px solid #dfe1e6;
+}
+
+.card-works {
+  display: none;
+}
+
+.desktop-right-block-1 {
+  margin: 15px 15px 15px 25px;
+  border-radius: 8px;
+  order: 2;
+}
+
+.desktop-left-block-1 {
+  margin: 15px 15px 15px 25px;
+  border-radius: 8px;
+}
+
+.card-images {
+  width: 100%;
+}
+
+.desktop-sub-block-3 {
+  list-style-type: none;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding-left: 20px;
+  gap: 8px;
+  color: blueviolet;
+}
+
+.first-card-sub-block-3 {
+  list-style-type: none;
+  display: flex;
+  width: 100%;
+  flex-direction: row;
+  align-items: center;
+  padding-left: 20px;
+  gap: 8px;
+  color: blueviolet;
+}
+
+.desktop-right-block-2 {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 12px;
+  margin-left: 40px;
+  margin-bottom: 20px;
+  margin-right: 40px;
+}
+
+.desktop-left-block-2 {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 12px;
+  margin-left: 40px;
+  margin-right: 40px;
+}
+
+.hand-cursor-img {
+  display: flex;
+  margin-left: 350px;
+  order: 3;
+}
+
+.about-my-self {
+  display: flex;
+  border-top-right-radius: 80px;
+  background-image: url(../images/desktop-about-myself-backg.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.about-me {
+  padding: 10 0 10px 15px;
+  display: flex;
+}
+
+.bottom-about-me {
+  display: flex;
+  width: 100%;
+  padding: 10px 10px 10px 15px;
+  font-family: "Poppins", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  color: #344563;
+}
+
+.bottom-text-container {
+  margin-left: 100px;
+  margin-top: 60px;
+  margin-bottom: 20px;
+  display: flex;
+  flex-direction: column;
+}
+
+.about-my-self-social-md-icons {
+  display: flex;
+  width: 170.17px;
+  height: 20px;
+  margin-top: 20px;
+  padding-left: 25px;
+  justify-content: space-between;
+}
+
+.tonic-descrptn {
+  width: 100%;
+  margin-top: 10px;
+  font-size: 15px;
+}
+
+.multi-post-descrptn {
+  width: 100%;
+  font-size: 15px;
+  margin-top: 10px;
+}
+
+.multi-post {
+  width: 100%;
+  margin-bottom: 5px;
+}
+
+.tonic {
+  width: 100%;
+  margin-bottom: 5px;
+}
+
+.tonic-frame {
+  max-width: 100%;
+  display: flex;
+}
+
+.multi-post-frame {
+  max-width: 100%;
+  display: flex;
+}
+
+.desktop-lang-list {
+  padding-right: 10px;
+  margin-top: 20px;
+  margin-bottom: 15px;
+  display: flex;
+  float: left;
+}
+
+.desktop-lang-list img {
+  width: 100%;
+}
+
+.skills-all-contnr {
+  width: 100%;
+  margin-bottom: 20px;
+  margin-top: 80px;
+  margin-left: 40px;
+  margin-right: 40px;
+  display: flex;
+  flex-direction: column;
+}
+
+.frameworks {
+  margin-right: 20px;
+  width: 100%;
+  display: flex;
+  gap: 160px;
+}
+
+.frameworks h3 {
+  width: 100%;
+}
+
+.frameworks img {
+  display: flex;
+  width: 20px;
+  height: 25px;
+}
+
+.separator {
+  margin-top: 20px;
+  display: flex;
+  max-width: 100%;
+}
+
+.lang-list {
+  display: none;
+}
+
+.bottom-icon {
+  display: none;
+}
+
+.contact-form {
+  display: flex;
+  background: #6070ff;
+  background-image: url(../images/desktop-contact-form-bkg.png);
+  border-top-left-radius: 75px;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.contact-me-descrptn {
+  width: 370px;
+  text-align: left;
+  margin-bottom: 10px;
+  font-size: 15px;
+}
+
+#Contact-me-title {
+  display: flex;
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  margin-left: 30px;
+}
+
+#client-email {
+  display: flex;
+  width: 300px;
+  margin-top: 0;
+  border-radius: 0;
+}
+
+#client-name {
+  display: flex;
+  width: 300px;
+  margin-top: 0;
+  border-radius: 0;
+}
+
+#client-message {
+  display: flex;
+  width: 300px;
+  border-radius: 0;
+  margin-top: 0;
+}
+
+.get-it-touch-btn {
+  margin-left: 80px;
+}
+
+.form-div {
+  display: flex;
+  max-width: 100%;
+  flex-direction: column;
+  margin: 110px 100px 10px 500px;
+}
