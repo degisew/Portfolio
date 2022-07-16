@@ -34,6 +34,9 @@
 }
 
 .my-logo {
+  animation-name: rotate;
+  animation-duration: 3s;
+  animation-delay: 1s;
   padding-left: 20px;
   font-family: "Poppins", sans-serif;
   font-style: normal;
@@ -45,6 +48,18 @@
   flex: none;
   order: 0;
   flex-grow: 0;
+}
+
+@keyframes rotate {
+  from {
+    margin-left: 100%;
+    width: 300%;
+  }
+
+  to {
+    margin-left: 0%;
+    width: 100%;
+  }
 }
 
 .drawer-icon {
@@ -326,6 +341,9 @@
 }
 
 input[type="submit"] {
+  transition-property: background-color, height, width;
+  transition-duration: 1s;
+  transition-delay: 0s;
   margin-left: 20px;
   border-color: #6070ff;
   background-color: white;
@@ -339,15 +357,17 @@ input[type="submit"] {
   order: 3;
 }
 
+input[type="submit"]:hover {
+  background-color: #bd3391;
+  height: 60px;
+  width: 160px;
+  color: white;
+}
 input[type="submit"]:focus {
   background-color: #1e07cf;
   color: white;
 }
 
-input[type="submit"]:hover {
-  background-color: #3733bd;
-  color: white;
-}
 
 .about-my-self {
   background-image: url(../images/aboutmyself.png);
