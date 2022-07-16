@@ -363,3 +363,7 @@
   flex-direction: column;
   margin: 110px 100px 10px 500px;
 }
+
+.desktop-lang-list:hover {
+  transform: scale(1.1);
+}
