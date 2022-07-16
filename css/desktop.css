@@ -54,6 +54,7 @@
 }
 
 .sub-section-of-1 {
+  display: flex;
   background-image: url(../images/desktop-1st-screen-bkg.png);
   background-repeat: no-repeat;
   background-size: cover;
@@ -159,6 +160,7 @@
   align-items: flex-start;
   gap: 12px;
   margin-left: 40px;
+  margin-bottom: 20px;
   margin-right: 40px;
 }
 
@@ -204,6 +206,7 @@
 .bottom-text-container {
   margin-left: 100px;
   margin-top: 60px;
+  margin-bottom: 20px;
   display: flex;
   flex-direction: column;
 }
@@ -249,24 +252,49 @@
   display: flex;
 }
 
-.skills {
-  /* display: flex; */
-  width: 100%;
-  margin-top: 80px;
-  margin-left: 40px;
-  list-style-type: none;
-}
-
 .desktop-lang-list {
   padding-right: 10px;
+  margin-top: 20px;
+  margin-bottom: 15px;
   display: flex;
   float: left;
 }
 
-.main-lists {
+.desktop-lang-list img {
+  width: 100%;
+}
+
+.skills-all-contnr {
+  width: 100%;
+  margin-bottom: 20px;
+  margin-top: 80px;
+  margin-left: 40px;
+  margin-right: 40px;
+  display: flex;
+  flex-direction: column;
+}
+
+.frameworks {
+  margin-right: 20px;
+  width: 100%;
+  display: flex;
+  gap: 160px;
+}
+
+.frameworks h3 {
+  width: 100%;
+}
+
+.frameworks img {
+  display: flex;
+  width: 20px;
+  height: 25px;
+}
+
+.separator {
+  margin-top: 20px;
   display: flex;
   max-width: 100%;
-  flex-direction: row;
 }
 
 .lang-list {
@@ -278,6 +306,7 @@
 }
 
 .contact-form {
+  display: flex;
   background: #6070ff;
   background-image: url(../images/desktop-contact-form-bkg.png);
   border-top-left-radius: 75px;
@@ -286,6 +315,7 @@
 }
 
 .contact-me-descrptn {
+  width: 370px;
   text-align: left;
   margin-bottom: 10px;
   font-size: 15px;
@@ -303,16 +333,22 @@
 }
 
 #client-email {
+  display: flex;
+  width: 300px;
   margin-top: 0;
   border-radius: 0;
 }
 
 #client-name {
+  display: flex;
+  width: 300px;
   margin-top: 0;
   border-radius: 0;
 }
 
 #client-message {
+  display: flex;
+  width: 300px;
   border-radius: 0;
   margin-top: 0;
 }
@@ -325,5 +361,5 @@
   display: flex;
   max-width: 100%;
   flex-direction: column;
-  margin: 110px 100px 0 400px;
+  margin: 110px 100px 10px 500px;
 }
