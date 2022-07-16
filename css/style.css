@@ -363,11 +363,11 @@ input[type="submit"]:hover {
   width: 160px;
   color: white;
 }
+
 input[type="submit"]:focus {
   background-color: #1e07cf;
   color: white;
 }
-
 
 .about-my-self {
   background-image: url(../images/aboutmyself.png);
