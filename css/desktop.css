@@ -322,6 +322,7 @@
 }
 
 #Contact-me-title {
+  
   display: flex;
 }
 
@@ -354,7 +355,7 @@
 }
 
 .get-it-touch-btn {
-  margin-left: 80px;
+  margin-left: 200px;
 }
 
 .form-div {
